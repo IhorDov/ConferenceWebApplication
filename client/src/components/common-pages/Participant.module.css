@@ -1,0 +1,15 @@
+.card {
+    width: 450px;
+    border: 1px lightgrey solid;
+    border-radius: 10px;
+    margin: 15px;
+    padding-bottom: 10px;
+    font-size: 1.1 rem;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        font-size: 14px;
+        width: 400px;
+    }
+}

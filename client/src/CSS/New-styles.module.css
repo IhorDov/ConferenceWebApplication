@@ -1,0 +1,17 @@
+.sidebarTextSize {
+    font-size: 20px;
+}
+
+/* Media query for screens with a maximum width of 600 pixels */
+@media screen and (max-width: 600px) {
+    .sidebarTextSize {
+        font-size: 14px;
+    }
+}
+
+.logo-img-pos {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}

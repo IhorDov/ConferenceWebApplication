@@ -1,0 +1,13 @@
+.form_size {
+    margin-top: 70px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.div_size {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

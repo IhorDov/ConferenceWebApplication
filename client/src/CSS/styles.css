@@ -1,0 +1,57 @@
+.sidebar {
+    position: absolute;
+    top: 24px;
+    left: -25vw;
+    height: 100%;
+    width: 25vw;
+    transition: left 0.3s ease-in-out;
+    background-color: #d90c0c;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar-toggle {
+    position: absolute;
+    top: 20%;
+    right: -60px;
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    transition: left 0.3s ease-in-out;
+    background-color: lightgray;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.content.open {
+    left: 15vw;
+}
+
+.white-button {
+    background-color: rgb(222, 222, 222);
+    color: black;
+}
+
+.scrollable-container {
+    height: 100vh;
+    /* Set the height to occupy the full viewport height */
+    overflow-y: auto;
+    /* Enable vertical scrolling if the content overflows the container */
+}
